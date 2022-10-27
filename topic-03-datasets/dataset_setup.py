@@ -1,6 +1,6 @@
 import dataset
 
-db = dataset.connect('sqlite:///shopping_list.db')
+db = dataset.connect('sqlite:////home/ruchithaearla/mysite/Dataweb-ADSD/topic-03-datasets/shopping_list.db')
 
 try:
     db['list'].drop()

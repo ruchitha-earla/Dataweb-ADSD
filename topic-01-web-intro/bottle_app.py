@@ -1,7 +1,7 @@
 from bottle import default_app, route, get, post, template, request, redirect
 import sqlite3
 
-connection = sqlite3.connect("shopping_list.db")
+connection = sqlite3.connect("/home/ruchithaearla/mysite/Dataweb-ADSD/topic-01-web-intro/shopping_list.db")
 
 @route('/')
 def hello_world():

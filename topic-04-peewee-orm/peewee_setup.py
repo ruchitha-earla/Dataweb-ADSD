@@ -1,6 +1,6 @@
 from peewee import SqliteDatabase, Model, CharField
 
-db = SqliteDatabase('peewee_shopping_list.db')
+db = SqliteDatabase('/home/ruchithaearla/mysite/Dataweb-ADSD/topic-04-peewee-orm/peewee_shopping_list.db')
 
 class Item(Model):
     description = CharField()

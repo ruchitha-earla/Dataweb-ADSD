@@ -2,7 +2,7 @@
 
 import sqlite3
 
-connection = sqlite3.connect("shopping_list.db")
+connection = sqlite3.connect("/home/ruchithaearla/mysite/Dataweb-ADSD/topic-02-db-abstraction/shopping_list.db")
 
 def get_items(id=None):
     cursor = connection.cursor()
